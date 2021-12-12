@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<opencv_storage>
+
+  <exposure_auto>0</exposure_auto>
+  <exposure_time>1000</exposure_time> <!-- us -->
+
+  <w_auto>0</w_auto>
+  <w_red>1.50</w_red>
+  <w_green>1.</w_green>
+  <w_blue>1.98</w_blue>
+
+  <gain_auto>0</gain_auto>
+  <gain>12</gain>
+
+</opencv_storage>
+
+
+

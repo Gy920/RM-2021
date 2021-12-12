@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<opencv_storage>
+
+
+<same_lights_max_dis>9.0</same_lights_max_dis>
+<light_min_wihe_ratio>1.2</light_min_wihe_ratio>
+<light_max_wihe_ratio>10</light_max_wihe_ratio>
+<light_min_area_ratio>0.4</light_min_area_ratio>
+<light_bigger_area_ratio>0.6</light_bigger_area_ratio>
+
+<gray_light_min_threshold>165</gray_light_min_threshold>
+<blue_light_min_threshold>45</blue_light_min_threshold>
+<red_light_min_threshold>45</red_light_min_threshold>
+
+<lights_angle_max_dif>20</lights_angle_max_dif>
+<lights_height_max_dif>600</lights_height_max_dif>
+
+<lights_lenght_min_ratio>0.5</lights_lenght_min_ratio>  <!--0.4-->
+<lights_lenght_max_ratio>2.0</lights_lenght_max_ratio>  <!--2.5-->
+
+<lights_center_min_ratio>1.2</lights_center_min_ratio>   <!--这里对于倾斜45°的大装甲不友好-->
+<lights_center_max_ratio>6.5</lights_center_max_ratio>   <!--10-->
+
+
+
+
+
+</opencv_storage>
+
+
+

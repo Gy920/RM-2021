@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<opencv_storage>
+
+<!--FOR KLAMAN MATRIX-->
+<delay>0.00450</delay>
+
+<A type_id="opencv-matrix">
+    <rows>4</rows>
+    <cols>4</cols>
+    <dt>d</dt>
+    <data>
+        1   0   5   0
+        0   1   0   5 
+        0   0   1   0
+        0   0   0   1
+    </data>
+</A>
+
+
+<H type_id="opencv-matrix">
+    <rows>2</rows>
+    <cols>4</cols>
+    <dt>d</dt>
+    <data>
+        1   0   0    0
+        0   1   0    0
+    </data>
+</H>
+
+<P type_id="opencv-matrix">
+    <rows>4</rows>
+    <cols>4</cols>
+    <dt>d</dt>
+    <data>
+        1   0   0   0
+        0   1   0   0
+        0   0   500  0
+        0   0   0   500
+    </data>
+</P>
+
+<Q type_id="opencv-matrix">
+    <rows>4</rows>
+    <cols>4</cols>
+    <dt>d</dt>
+    <data>
+        1.5   0   0   0
+        0   1.5   0   0
+        0   0   1   0
+        0   0   0   1
+    </data>
+</Q>
+
+<R type_id="opencv-matrix">
+    <rows>2</rows>
+    <cols>2</cols>
+    <dt>d</dt>
+    <data>
+        0.50     0
+        0       0.50
+    </data>
+</R>
+
+
+</opencv_storage>

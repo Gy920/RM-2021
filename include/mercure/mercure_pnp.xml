@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<opencv_storage>
+  
+  <z_scale>1</z_scale>
+
+  <min_distance>10</min_distance>
+  <max_distance>10000</max_distance>
+
+  <!--装甲板真实信息-->
+  <small_armor_boxes_real_height>70.0</small_armor_boxes_real_height>
+  <small_armor_boxes_real_width>130.0</small_armor_boxes_real_width>
+  <big_armor_boxes_real_height>50.0</big_armor_boxes_real_height>
+  <big_armor_boxes_real_width>210.0</big_armor_boxes_real_width>
+  <!--相机内部矩阵-->
+  <!--哨兵下云台-->
+  <Camera_Matrix type_id="opencv-matrix">
+    <rows>3</rows>
+    <cols>3</cols>
+    <dt>d</dt>
+    <data>
+        1.4316e+03 
+        0.
+        939.9713
+    	  0.
+        1.4369e+03
+        722.6908
+        0.
+        0.
+        1.
+    </data>
+  </Camera_Matrix>
+  <!--相机畸变-->
+  <Distortion_Coefficients type_id="opencv-matrix">
+    <rows>5</rows>
+    <cols>1</cols>
+    <dt>d</dt>
+    <data>
+       -0.2619
+       -0.0096
+	0.0
+       0.0
+       0.0 
+        <!-- 0.0538
+       3.7773
+	     0.0017
+       0.000881
+       0.51 -->
+    </data>
+  </Distortion_Coefficients>
+</opencv_storage>
+
+   <!-- //OLD
+    // float martrix[9]={   1.5849e+03  ,0.,  977.6231,
+    // 	  0., 1.5825e+03, 584.3502,
+    //       0.,  	0.,    1.};
+    // float coeffs[5]={
+    //     -0.2613,
+    //    -0.1773,
+	//      0.0,
+    //    0.0,
+    //    0.0 ,
+    // };
+    //NEW
+    //   float martrix[9]={   1.5408e+03  ,0.,  957.9753,
+    // 	  0., 1.5449e+03, 614.6785,
+    //       0.,  	0.,    1.};
+    // float coeffs[5]={
+    //     -0.2775,
+    //    0.1240,
+	//      0.0,
+    //    0.0,
+    //    0.0 ,
+    // };-->
